@@ -1,7 +1,16 @@
+
 {
+  "name": "my-dataform-project",
+  "version": "3.0.2",
+  "description": "Dataform project for managing data workflows",
+  "scripts": {
+    "build": "dataform build",
+    "run": "dataform run"
+  },
   "dependencies": {
-    "@dataform/core": "3.0.2",  
-    "@dataform/sqlx": "1.6.4"
-  }
+    "@dataform/core": "^3.0.2"
+  },
+  "devDependencies": {}
 }
+
 
